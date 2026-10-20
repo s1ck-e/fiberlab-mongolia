@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "ub",
+      "name": "Улаанбаатар",
+      "province": "Нийслэл",
+      "lat": 47.92,
+      "lon": 106.92
+    },
+    {
+      "id": "ark",
+      "name": "Цэцэрлэг",
+      "province": "Архангай",
+      "lat": 47.48,
+      "lon": 101.45
+    },
+    {
+      "id": "ulg",
+      "name": "Өлгий",
+      "province": "Баян-Өлгий",
+      "lat": 48.97,
+      "lon": 89.97
+    },
+    {
+      "id": "bay",
+      "name": "Баянхонгор",
+      "province": "Баянхонгор",
+      "lat": 46.19,
+      "lon": 100.72
+    },
+    {
+      "id": "bul",
+      "name": "Булган",
+      "province": "Булган",
+      "lat": 48.81,
+      "lon": 103.53
+    },
+    {
+      "id": "alt",
+      "name": "Алтай",
+      "province": "Говь-Алтай",
+      "lat": 46.37,
+      "lon": 96.26
+    },
+    {
+      "id": "cho",
+      "name": "Чойр",
+      "province": "Говьсүмбэр",
+      "lat": 46.36,
+      "lon": 108.36
+    },
+    {
+      "id": "dar",
+      "name": "Дархан",
+      "province": "Дархан-Уул",
+      "lat": 49.49,
+      "lon": 105.92
+    },
+    {
+      "id": "sai",
+      "name": "Сайншанд",
+      "province": "Дорноговь",
+      "lat": 44.89,
+      "lon": 110.12
+    },
+    {
+      "id": "dorn",
+      "name": "Чойбалсан",
+      "province": "Дорнод",
+      "lat": 48.07,
+      "lon": 114.53
+    },
+    {
+      "id": "man",
+      "name": "Мандалговь",
+      "province": "Дундговь",
+      "lat": 45.76,
+      "lon": 106.27
+    },
+    {
+      "id": "uli",
+      "name": "Улиастай",
+      "province": "Завхан",
+      "lat": 47.74,
+      "lon": 96.84
+    },
+    {
+      "id": "erd",
+      "name": "Эрдэнэт",
+      "province": "Орхон",
+      "lat": 49.03,
+      "lon": 104.04
+    },
+    {
+      "id": "arv",
+      "name": "Арвайхээр",
+      "province": "Өвөрхангай",
+      "lat": 46.26,
+      "lon": 102.78
+    },
+    {
+      "id": "dal",
+      "name": "Даланзадгад",
+      "province": "Өмнөговь",
+      "lat": 43.57,
+      "lon": 104.43
+    },
+    {
+      "id": "bar",
+      "name": "Баруун-Урт",
+      "province": "Сүхбаатар",
+      "lat": 46.68,
+      "lon": 113.28
+    },
+    {
+      "id": "sel",
+      "name": "Сүхбаатар",
+      "province": "Сэлэнгэ",
+      "lat": 50.24,
+      "lon": 106.21
+    },
+    {
+      "id": "zuu",
+      "name": "Зуунмод",
+      "province": "Төв",
+      "lat": 47.71,
+      "lon": 106.95
+    },
+    {
+      "id": "ula",
+      "name": "Улаангом",
+      "province": "Увс",
+      "lat": 49.98,
+      "lon": 92.07
+    },
+    {
+      "id": "kho",
+      "name": "Ховд",
+      "province": "Ховд",
+      "lat": 48.0,
+      "lon": 91.64
+    },
+    {
+      "id": "mur",
+      "name": "Мөрөн",
+      "province": "Хөвсгөл",
+      "lat": 49.64,
+      "lon": 100.16
+    },
+    {
+      "id": "khe",
+      "name": "Чингис",
+      "province": "Хэнтий",
+      "lat": 47.32,
+      "lon": 110.66
+    }
+  ],
+  "edges": [
+    {
+      "id": "cho--ub",
+      "u": "ub",
+      "v": "cho",
+      "km": 256.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dar--ub",
+      "u": "ub",
+      "v": "dar",
+      "km": 236.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dorn--ub",
+      "u": "ub",
+      "v": "dorn",
+      "km": 707.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "man--ub",
+      "u": "ub",
+      "v": "man",
+      "km": 306.5,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "erd--ub",
+      "u": "ub",
+      "v": "erd",
+      "km": 306.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "sel--ub",
+      "u": "ub",
+      "v": "sel",
+      "km": 328.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ub--zuu",
+      "u": "ub",
+      "v": "zuu",
+      "km": 29.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--bay",
+      "u": "ark",
+      "v": "bay",
+      "km": 192.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--bul",
+      "u": "ark",
+      "v": "bul",
+      "km": 267.2,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--ark",
+      "u": "ark",
+      "v": "alt",
+      "km": 516.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--uli",
+      "u": "ark",
+      "v": "uli",
+      "km": 433.4,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--erd",
+      "u": "ark",
+      "v": "erd",
+      "km": 322.2,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--arv",
+      "u": "ark",
+      "v": "arv",
+      "km": 211.5,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ark--mur",
+      "u": "ark",
+      "v": "mur",
+      "km": 322.8,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--ulg",
+      "u": "ulg",
+      "v": "alt",
+      "km": 690.5,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ulg--uli",
+      "u": "ulg",
+      "v": "uli",
+      "km": 656.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ula--ulg",
+      "u": "ulg",
+      "v": "ula",
+      "km": 235.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "kho--ulg",
+      "u": "ulg",
+      "v": "kho",
+      "km": 204.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--bay",
+      "u": "bay",
+      "v": "alt",
+      "km": 429.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bay--uli",
+      "u": "bay",
+      "v": "uli",
+      "km": 426.4,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "arv--bay",
+      "u": "bay",
+      "v": "arv",
+      "km": 198.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bay--dal",
+      "u": "bay",
+      "v": "dal",
+      "km": 515.8,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bul--dar",
+      "u": "bul",
+      "v": "dar",
+      "km": 236.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bul--erd",
+      "u": "bul",
+      "v": "erd",
+      "km": 55.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "arv--bul",
+      "u": "bul",
+      "v": "arv",
+      "km": 361.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bul--sel",
+      "u": "bul",
+      "v": "sel",
+      "km": 313.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bul--mur",
+      "u": "bul",
+      "v": "mur",
+      "km": 326.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--uli",
+      "u": "alt",
+      "v": "uli",
+      "km": 198.2,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--ula",
+      "u": "alt",
+      "v": "ula",
+      "km": 634.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "alt--kho",
+      "u": "alt",
+      "v": "kho",
+      "km": 491.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--sai",
+      "u": "cho",
+      "v": "sai",
+      "km": 266.5,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--dorn",
+      "u": "cho",
+      "v": "dorn",
+      "km": 628.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--man",
+      "u": "cho",
+      "v": "man",
+      "km": 218.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--dal",
+      "u": "cho",
+      "v": "dal",
+      "km": 547.4,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bar--cho",
+      "u": "cho",
+      "v": "bar",
+      "km": 472.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--zuu",
+      "u": "cho",
+      "v": "zuu",
+      "km": 230.3,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "cho--khe",
+      "u": "cho",
+      "v": "khe",
+      "km": 256.2,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dar--erd",
+      "u": "dar",
+      "v": "erd",
+      "km": 182.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dar--sel",
+      "u": "dar",
+      "v": "sel",
+      "km": 107.4,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dar--zuu",
+      "u": "dar",
+      "v": "zuu",
+      "km": 264.9,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dorn--sai",
+      "u": "sai",
+      "v": "dorn",
+      "km": 611.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "man--sai",
+      "u": "sai",
+      "v": "man",
+      "km": 395.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bar--sai",
+      "u": "sai",
+      "v": "bar",
+      "km": 394.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "khe--sai",
+      "u": "sai",
+      "v": "khe",
+      "km": 341.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bar--dorn",
+      "u": "dorn",
+      "v": "bar",
+      "km": 226.2,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dorn--zuu",
+      "u": "dorn",
+      "v": "zuu",
+      "km": 708.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dorn--khe",
+      "u": "dorn",
+      "v": "khe",
+      "km": 376.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "arv--man",
+      "u": "man",
+      "v": "arv",
+      "km": 344.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "dal--man",
+      "u": "man",
+      "v": "dal",
+      "km": 354.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "man--zuu",
+      "u": "man",
+      "v": "zuu",
+      "km": 278.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "ula--uli",
+      "u": "uli",
+      "v": "ula",
+      "km": 535.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "kho--uli",
+      "u": "uli",
+      "v": "kho",
+      "km": 486.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "mur--uli",
+      "u": "uli",
+      "v": "mur",
+      "km": 403.1,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "erd--sel",
+      "u": "erd",
+      "v": "sel",
+      "km": 257.7,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "erd--mur",
+      "u": "erd",
+      "v": "mur",
+      "km": 361.5,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "arv--dal",
+      "u": "arv",
+      "v": "dal",
+      "km": 407.6,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "bar--khe",
+      "u": "bar",
+      "v": "khe",
+      "km": 263.8,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "khe--zuu",
+      "u": "zuu",
+      "v": "khe",
+      "km": 352.4,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "kho--ula",
+      "u": "ula",
+      "v": "kho",
+      "km": 278.0,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    },
+    {
+      "id": "mur--ula",
+      "u": "ula",
+      "v": "mur",
+      "km": 726.8,
+      "source": "estimated: haversine × 1.25; conceptual candidate"
+    }
+  ],
+  "metadata": {
+    "coordinates": "Approximate city-center coordinates; unverified demo inputs.",
+    "distances": "Estimated geodesic × 1.25, NOT measured road distances.",
+    "candidates": "Four nearest neighbors plus conceptual perimeter; NOT confirmed buildable corridors.",
+    "version": 1
+  }
+}
