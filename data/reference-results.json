@@ -1,0 +1,2257 @@
+{
+  "nodes": [
+    {
+      "id": "ub",
+      "name": "Улаанбаатар",
+      "province": "Нийслэл",
+      "lat": 47.92,
+      "lon": 106.92
+    },
+    {
+      "id": "ark",
+      "name": "Цэцэрлэг",
+      "province": "Архангай",
+      "lat": 47.48,
+      "lon": 101.45
+    },
+    {
+      "id": "ulg",
+      "name": "Өлгий",
+      "province": "Баян-Өлгий",
+      "lat": 48.97,
+      "lon": 89.97
+    },
+    {
+      "id": "bay",
+      "name": "Баянхонгор",
+      "province": "Баянхонгор",
+      "lat": 46.19,
+      "lon": 100.72
+    },
+    {
+      "id": "bul",
+      "name": "Булган",
+      "province": "Булган",
+      "lat": 48.81,
+      "lon": 103.53
+    },
+    {
+      "id": "alt",
+      "name": "Алтай",
+      "province": "Говь-Алтай",
+      "lat": 46.37,
+      "lon": 96.26
+    },
+    {
+      "id": "cho",
+      "name": "Чойр",
+      "province": "Говьсүмбэр",
+      "lat": 46.36,
+      "lon": 108.36
+    },
+    {
+      "id": "dar",
+      "name": "Дархан",
+      "province": "Дархан-Уул",
+      "lat": 49.49,
+      "lon": 105.92
+    },
+    {
+      "id": "sai",
+      "name": "Сайншанд",
+      "province": "Дорноговь",
+      "lat": 44.89,
+      "lon": 110.12
+    },
+    {
+      "id": "dorn",
+      "name": "Чойбалсан",
+      "province": "Дорнод",
+      "lat": 48.07,
+      "lon": 114.53
+    },
+    {
+      "id": "man",
+      "name": "Мандалговь",
+      "province": "Дундговь",
+      "lat": 45.76,
+      "lon": 106.27
+    },
+    {
+      "id": "uli",
+      "name": "Улиастай",
+      "province": "Завхан",
+      "lat": 47.74,
+      "lon": 96.84
+    },
+    {
+      "id": "erd",
+      "name": "Эрдэнэт",
+      "province": "Орхон",
+      "lat": 49.03,
+      "lon": 104.04
+    },
+    {
+      "id": "arv",
+      "name": "Арвайхээр",
+      "province": "Өвөрхангай",
+      "lat": 46.26,
+      "lon": 102.78
+    },
+    {
+      "id": "dal",
+      "name": "Даланзадгад",
+      "province": "Өмнөговь",
+      "lat": 43.57,
+      "lon": 104.43
+    },
+    {
+      "id": "bar",
+      "name": "Баруун-Урт",
+      "province": "Сүхбаатар",
+      "lat": 46.68,
+      "lon": 113.28
+    },
+    {
+      "id": "sel",
+      "name": "Сүхбаатар",
+      "province": "Сэлэнгэ",
+      "lat": 50.24,
+      "lon": 106.21
+    },
+    {
+      "id": "zuu",
+      "name": "Зуунмод",
+      "province": "Төв",
+      "lat": 47.71,
+      "lon": 106.95
+    },
+    {
+      "id": "ula",
+      "name": "Улаангом",
+      "province": "Увс",
+      "lat": 49.98,
+      "lon": 92.07
+    },
+    {
+      "id": "kho",
+      "name": "Ховд",
+      "province": "Ховд",
+      "lat": 48.0,
+      "lon": 91.64
+    },
+    {
+      "id": "mur",
+      "name": "Мөрөн",
+      "province": "Хөвсгөл",
+      "lat": 49.64,
+      "lon": 100.16
+    },
+    {
+      "id": "khe",
+      "name": "Чингис",
+      "province": "Хэнтий",
+      "lat": 47.32,
+      "lon": 110.66
+    }
+  ],
+  "topologies": {
+    "mst": {
+      "edges": [
+        {
+          "u": "ub",
+          "v": "zuu",
+          "km": 29.3,
+          "id": "ub--zuu",
+          "kind": "base"
+        },
+        {
+          "u": "ub",
+          "v": "dar",
+          "km": 236.7,
+          "id": "dar--ub",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "bay",
+          "km": 192.3,
+          "id": "ark--bay",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "bul",
+          "km": 267.2,
+          "id": "ark--bul",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "mur",
+          "km": 322.8,
+          "id": "ark--mur",
+          "kind": "base"
+        },
+        {
+          "u": "ulg",
+          "v": "kho",
+          "km": 204.6,
+          "id": "kho--ulg",
+          "kind": "base"
+        },
+        {
+          "u": "ulg",
+          "v": "ula",
+          "km": 235.9,
+          "id": "ula--ulg",
+          "kind": "base"
+        },
+        {
+          "u": "bay",
+          "v": "arv",
+          "km": 198.3,
+          "id": "arv--bay",
+          "kind": "base"
+        },
+        {
+          "u": "bul",
+          "v": "erd",
+          "km": 55.7,
+          "id": "bul--erd",
+          "kind": "base"
+        },
+        {
+          "u": "alt",
+          "v": "uli",
+          "km": 198.2,
+          "id": "alt--uli",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "man",
+          "km": 218.1,
+          "id": "cho--man",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "zuu",
+          "km": 230.3,
+          "id": "cho--zuu",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "khe",
+          "km": 256.2,
+          "id": "cho--khe",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "sai",
+          "km": 266.5,
+          "id": "cho--sai",
+          "kind": "base"
+        },
+        {
+          "u": "dar",
+          "v": "sel",
+          "km": 107.4,
+          "id": "dar--sel",
+          "kind": "base"
+        },
+        {
+          "u": "dar",
+          "v": "erd",
+          "km": 182.1,
+          "id": "dar--erd",
+          "kind": "base"
+        },
+        {
+          "u": "dorn",
+          "v": "bar",
+          "km": 226.2,
+          "id": "bar--dorn",
+          "kind": "base"
+        },
+        {
+          "u": "man",
+          "v": "dal",
+          "km": 354.6,
+          "id": "dal--man",
+          "kind": "base"
+        },
+        {
+          "u": "uli",
+          "v": "mur",
+          "km": 403.1,
+          "id": "mur--uli",
+          "kind": "base"
+        },
+        {
+          "u": "uli",
+          "v": "kho",
+          "km": 486.1,
+          "id": "kho--uli",
+          "kind": "base"
+        },
+        {
+          "u": "bar",
+          "v": "khe",
+          "km": 263.8,
+          "id": "bar--khe",
+          "kind": "base"
+        }
+      ],
+      "stats": {
+        "km": 4935.4,
+        "bridges": [
+          "ub--zuu",
+          "dar--ub",
+          "ark--bay",
+          "ark--bul",
+          "ark--mur",
+          "kho--ulg",
+          "ula--ulg",
+          "arv--bay",
+          "bul--erd",
+          "alt--uli",
+          "cho--man",
+          "cho--zuu",
+          "cho--khe",
+          "cho--sai",
+          "dar--sel",
+          "dar--erd",
+          "bar--dorn",
+          "dal--man",
+          "mur--uli",
+          "kho--uli",
+          "bar--khe"
+        ],
+        "connected": true,
+        "tolerant": false,
+        "rtt": 36.800000000000004,
+        "pair": [
+          "dorn",
+          "ula"
+        ],
+        "components": [
+          [
+            "alt",
+            "ark",
+            "arv",
+            "bar",
+            "bay",
+            "bul",
+            "cho",
+            "dal",
+            "dar",
+            "dorn",
+            "erd",
+            "khe",
+            "kho",
+            "man",
+            "mur",
+            "sai",
+            "sel",
+            "ub",
+            "ula",
+            "ulg",
+            "uli",
+            "zuu"
+          ]
+        ]
+      }
+    },
+    "resilient": {
+      "edges": [
+        {
+          "u": "ub",
+          "v": "zuu",
+          "km": 29.3,
+          "id": "ub--zuu",
+          "kind": "base"
+        },
+        {
+          "u": "ub",
+          "v": "dar",
+          "km": 236.7,
+          "id": "dar--ub",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "bay",
+          "km": 192.3,
+          "id": "ark--bay",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "bul",
+          "km": 267.2,
+          "id": "ark--bul",
+          "kind": "base"
+        },
+        {
+          "u": "ark",
+          "v": "mur",
+          "km": 322.8,
+          "id": "ark--mur",
+          "kind": "base"
+        },
+        {
+          "u": "ulg",
+          "v": "kho",
+          "km": 204.6,
+          "id": "kho--ulg",
+          "kind": "base"
+        },
+        {
+          "u": "ulg",
+          "v": "ula",
+          "km": 235.9,
+          "id": "ula--ulg",
+          "kind": "base"
+        },
+        {
+          "u": "bay",
+          "v": "arv",
+          "km": 198.3,
+          "id": "arv--bay",
+          "kind": "base"
+        },
+        {
+          "u": "bay",
+          "v": "alt",
+          "km": 429.1,
+          "id": "alt--bay",
+          "kind": "extra"
+        },
+        {
+          "u": "bul",
+          "v": "erd",
+          "km": 55.7,
+          "id": "bul--erd",
+          "kind": "base"
+        },
+        {
+          "u": "alt",
+          "v": "uli",
+          "km": 198.2,
+          "id": "alt--uli",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "man",
+          "km": 218.1,
+          "id": "cho--man",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "zuu",
+          "km": 230.3,
+          "id": "cho--zuu",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "khe",
+          "km": 256.2,
+          "id": "cho--khe",
+          "kind": "base"
+        },
+        {
+          "u": "cho",
+          "v": "sai",
+          "km": 266.5,
+          "id": "cho--sai",
+          "kind": "base"
+        },
+        {
+          "u": "dar",
+          "v": "sel",
+          "km": 107.4,
+          "id": "dar--sel",
+          "kind": "base"
+        },
+        {
+          "u": "dar",
+          "v": "erd",
+          "km": 182.1,
+          "id": "dar--erd",
+          "kind": "base"
+        },
+        {
+          "u": "sai",
+          "v": "dorn",
+          "km": 611.0,
+          "id": "dorn--sai",
+          "kind": "extra"
+        },
+        {
+          "u": "dorn",
+          "v": "bar",
+          "km": 226.2,
+          "id": "bar--dorn",
+          "kind": "base"
+        },
+        {
+          "u": "man",
+          "v": "dal",
+          "km": 354.6,
+          "id": "dal--man",
+          "kind": "base"
+        },
+        {
+          "u": "uli",
+          "v": "mur",
+          "km": 403.1,
+          "id": "mur--uli",
+          "kind": "base"
+        },
+        {
+          "u": "uli",
+          "v": "kho",
+          "km": 486.1,
+          "id": "kho--uli",
+          "kind": "base"
+        },
+        {
+          "u": "uli",
+          "v": "ula",
+          "km": 535.7,
+          "id": "ula--uli",
+          "kind": "extra"
+        },
+        {
+          "u": "erd",
+          "v": "sel",
+          "km": 257.7,
+          "id": "erd--sel",
+          "kind": "extra"
+        },
+        {
+          "u": "arv",
+          "v": "dal",
+          "km": 407.6,
+          "id": "arv--dal",
+          "kind": "extra"
+        },
+        {
+          "u": "bar",
+          "v": "khe",
+          "km": 263.8,
+          "id": "bar--khe",
+          "kind": "base"
+        }
+      ],
+      "stats": {
+        "km": 7176.5,
+        "bridges": [],
+        "connected": true,
+        "tolerant": true,
+        "rtt": 34.24100000000001,
+        "pair": [
+          "ulg",
+          "dorn"
+        ],
+        "components": [
+          [
+            "alt",
+            "ark",
+            "arv",
+            "bar",
+            "bay",
+            "bul",
+            "cho",
+            "dal",
+            "dar",
+            "dorn",
+            "erd",
+            "khe",
+            "kho",
+            "man",
+            "mur",
+            "sai",
+            "sel",
+            "ub",
+            "ula",
+            "ulg",
+            "uli",
+            "zuu"
+          ]
+        ]
+      }
+    },
+    "mesh": {
+      "edges": [
+        {
+          "u": "ub",
+          "v": "ark",
+          "km": 515.2,
+          "id": "ark--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "ulg",
+          "km": 1566.3,
+          "id": "ub--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "bay",
+          "km": 634.2,
+          "id": "bay--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "bul",
+          "km": 336.6,
+          "id": "bul--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "alt",
+          "km": 1029.6,
+          "id": "alt--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "cho",
+          "km": 256.0,
+          "id": "cho--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "dar",
+          "km": 236.7,
+          "id": "dar--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "sai",
+          "km": 520.9,
+          "id": "sai--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "dorn",
+          "km": 707.9,
+          "id": "dorn--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "man",
+          "km": 306.5,
+          "id": "man--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "uli",
+          "km": 940.2,
+          "id": "ub--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "erd",
+          "km": 306.9,
+          "id": "erd--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "arv",
+          "km": 454.6,
+          "id": "arv--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "dal",
+          "km": 651.0,
+          "id": "dal--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "bar",
+          "km": 623.6,
+          "id": "bar--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "sel",
+          "km": 328.9,
+          "id": "sel--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "zuu",
+          "km": 29.3,
+          "id": "ub--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "ula",
+          "km": 1382.9,
+          "id": "ub--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "kho",
+          "km": 1419.9,
+          "id": "kho--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "mur",
+          "km": 663.4,
+          "id": "mur--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ub",
+          "v": "khe",
+          "km": 360.1,
+          "id": "khe--ub",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "ulg",
+          "km": 1081.9,
+          "id": "ark--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "bay",
+          "km": 192.3,
+          "id": "ark--bay",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "bul",
+          "km": 267.2,
+          "id": "ark--bul",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "alt",
+          "km": 516.1,
+          "id": "alt--ark",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "cho",
+          "km": 674.0,
+          "id": "ark--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "dar",
+          "km": 497.5,
+          "id": "ark--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "sai",
+          "km": 908.0,
+          "id": "ark--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "dorn",
+          "km": 1223.1,
+          "id": "ark--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "man",
+          "km": 518.4,
+          "id": "ark--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "uli",
+          "km": 433.4,
+          "id": "ark--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "erd",
+          "km": 322.2,
+          "id": "ark--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "arv",
+          "km": 211.5,
+          "id": "ark--arv",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "dal",
+          "km": 616.0,
+          "id": "ark--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "bar",
+          "km": 1124.1,
+          "id": "ark--bar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "sel",
+          "km": 580.0,
+          "id": "ark--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "zuu",
+          "km": 516.4,
+          "id": "ark--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "ula",
+          "km": 926.7,
+          "id": "ark--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "kho",
+          "km": 919.2,
+          "id": "ark--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "mur",
+          "km": 322.8,
+          "id": "ark--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ark",
+          "v": "khe",
+          "km": 866.3,
+          "id": "ark--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "bay",
+          "km": 1078.3,
+          "id": "bay--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "bul",
+          "km": 1237.8,
+          "id": "bul--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "alt",
+          "km": 690.5,
+          "id": "alt--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "cho",
+          "km": 1754.6,
+          "id": "cho--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "dar",
+          "km": 1446.8,
+          "id": "dar--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "sai",
+          "km": 1988.1,
+          "id": "sai--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "dorn",
+          "km": 2254.7,
+          "id": "dorn--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "man",
+          "km": 1594.5,
+          "id": "man--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "uli",
+          "km": 656.9,
+          "id": "ulg--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "erd",
+          "km": 1281.2,
+          "id": "erd--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "arv",
+          "km": 1256.2,
+          "id": "arv--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "dal",
+          "km": 1575.5,
+          "id": "dal--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "bar",
+          "km": 2189.6,
+          "id": "bar--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "sel",
+          "km": 1470.5,
+          "id": "sel--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "zuu",
+          "km": 1575.2,
+          "id": "ulg--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "ula",
+          "km": 235.9,
+          "id": "ula--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "kho",
+          "km": 204.6,
+          "id": "kho--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "mur",
+          "km": 927.5,
+          "id": "mur--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ulg",
+          "v": "khe",
+          "km": 1926.4,
+          "id": "khe--ulg",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "bul",
+          "km": 449.6,
+          "id": "bay--bul",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "alt",
+          "km": 429.1,
+          "id": "alt--bay",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "cho",
+          "km": 734.1,
+          "id": "bay--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "dar",
+          "km": 667.3,
+          "id": "bay--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "sai",
+          "km": 932.2,
+          "id": "bay--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "dorn",
+          "km": 1329.9,
+          "id": "bay--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "man",
+          "km": 539.3,
+          "id": "bay--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "uli",
+          "km": 426.4,
+          "id": "bay--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "erd",
+          "km": 502.5,
+          "id": "bay--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "arv",
+          "km": 198.3,
+          "id": "arv--bay",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "dal",
+          "km": 515.8,
+          "id": "bay--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "bar",
+          "km": 1203.8,
+          "id": "bar--bay",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "sel",
+          "km": 758.2,
+          "id": "bay--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "zuu",
+          "km": 627.5,
+          "id": "bay--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "ula",
+          "km": 959.6,
+          "id": "bay--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "kho",
+          "km": 894.7,
+          "id": "bay--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "mur",
+          "km": 482.4,
+          "id": "bay--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bay",
+          "v": "khe",
+          "km": 958.8,
+          "id": "bay--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "alt",
+          "km": 760.8,
+          "id": "alt--bul",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "cho",
+          "km": 566.4,
+          "id": "bul--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "dar",
+          "km": 236.9,
+          "id": "bul--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "sai",
+          "km": 829.7,
+          "id": "bul--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "dorn",
+          "km": 1018.6,
+          "id": "bul--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "man",
+          "km": 496.4,
+          "id": "bul--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "uli",
+          "km": 636.3,
+          "id": "bul--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "erd",
+          "km": 55.7,
+          "id": "bul--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "arv",
+          "km": 361.3,
+          "id": "arv--bul",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "dal",
+          "km": 733.4,
+          "id": "bul--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "bar",
+          "km": 957.4,
+          "id": "bar--bul",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "sel",
+          "km": 313.0,
+          "id": "bul--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "zuu",
+          "km": 351.4,
+          "id": "bul--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "ula",
+          "km": 1048.3,
+          "id": "bul--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "kho",
+          "km": 1101.7,
+          "id": "bul--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "mur",
+          "km": 326.9,
+          "id": "bul--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bul",
+          "v": "khe",
+          "km": 693.6,
+          "id": "bul--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "cho",
+          "km": 1159.4,
+          "id": "alt--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "dar",
+          "km": 997.7,
+          "id": "alt--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "sai",
+          "km": 1360.9,
+          "id": "alt--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "dorn",
+          "km": 1736.6,
+          "id": "alt--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "man",
+          "km": 968.4,
+          "id": "alt--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "uli",
+          "km": 198.2,
+          "id": "alt--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "erd",
+          "km": 815.8,
+          "id": "alt--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "arv",
+          "km": 625.9,
+          "id": "alt--arv",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "dal",
+          "km": 892.1,
+          "id": "alt--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "bar",
+          "km": 1625.1,
+          "id": "alt--bar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "sel",
+          "km": 1064.4,
+          "id": "alt--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "zuu",
+          "km": 1028.7,
+          "id": "alt--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "ula",
+          "km": 634.3,
+          "id": "alt--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "kho",
+          "km": 491.6,
+          "id": "alt--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "mur",
+          "km": 581.3,
+          "id": "alt--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "alt",
+          "v": "khe",
+          "km": 1373.4,
+          "id": "alt--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "dar",
+          "km": 490.8,
+          "id": "cho--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "sai",
+          "km": 266.5,
+          "id": "cho--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "dorn",
+          "km": 628.9,
+          "id": "cho--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "man",
+          "km": 218.1,
+          "id": "cho--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "uli",
+          "km": 1106.6,
+          "id": "cho--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "erd",
+          "km": 548.5,
+          "id": "cho--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "arv",
+          "km": 535.8,
+          "id": "arv--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "dal",
+          "km": 547.4,
+          "id": "cho--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "bar",
+          "km": 472.6,
+          "id": "bar--cho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "sel",
+          "km": 574.7,
+          "id": "cho--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "zuu",
+          "km": 230.3,
+          "id": "cho--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "ula",
+          "km": 1587.9,
+          "id": "cho--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "kho",
+          "km": 1592.7,
+          "id": "cho--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "mur",
+          "km": 887.8,
+          "id": "cho--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "cho",
+          "v": "khe",
+          "km": 256.2,
+          "id": "cho--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "sai",
+          "km": 752.2,
+          "id": "dar--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "dorn",
+          "km": 812.4,
+          "id": "dar--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "man",
+          "km": 519.5,
+          "id": "dar--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "uli",
+          "km": 868.5,
+          "id": "dar--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "erd",
+          "km": 182.1,
+          "id": "dar--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "arv",
+          "km": 535.9,
+          "id": "arv--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "dal",
+          "km": 835.0,
+          "id": "dal--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "bar",
+          "km": 786.6,
+          "id": "bar--dar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "sel",
+          "km": 107.4,
+          "id": "dar--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "zuu",
+          "km": 264.9,
+          "id": "dar--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "ula",
+          "km": 1244.3,
+          "id": "dar--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "kho",
+          "km": 1323.0,
+          "id": "dar--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "mur",
+          "km": 519.6,
+          "id": "dar--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dar",
+          "v": "khe",
+          "km": 531.1,
+          "id": "dar--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "dorn",
+          "km": 611.0,
+          "id": "dorn--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "man",
+          "km": 395.1,
+          "id": "man--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "uli",
+          "km": 1333.1,
+          "id": "sai--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "erd",
+          "km": 814.2,
+          "id": "erd--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "arv",
+          "km": 738.8,
+          "id": "arv--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "dal",
+          "km": 595.5,
+          "id": "dal--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "bar",
+          "km": 394.6,
+          "id": "bar--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "sel",
+          "km": 828.8,
+          "id": "sai--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "zuu",
+          "km": 496.2,
+          "id": "sai--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "ula",
+          "km": 1832.7,
+          "id": "sai--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "kho",
+          "km": 1817.1,
+          "id": "kho--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "mur",
+          "km": 1146.7,
+          "id": "mur--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sai",
+          "v": "khe",
+          "km": 341.7,
+          "id": "khe--sai",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "man",
+          "km": 846.9,
+          "id": "dorn--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "uli",
+          "km": 1645.3,
+          "id": "dorn--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "erd",
+          "km": 973.6,
+          "id": "dorn--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "arv",
+          "km": 1137.3,
+          "id": "arv--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "dal",
+          "km": 1159.8,
+          "id": "dal--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "bar",
+          "km": 226.2,
+          "id": "bar--dorn",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "sel",
+          "km": 813.7,
+          "id": "dorn--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "zuu",
+          "km": 708.0,
+          "id": "dorn--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "ula",
+          "km": 2056.3,
+          "id": "dorn--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "kho",
+          "km": 2119.6,
+          "id": "dorn--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "mur",
+          "km": 1330.0,
+          "id": "dorn--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dorn",
+          "v": "khe",
+          "km": 376.7,
+          "id": "dorn--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "uli",
+          "km": 938.6,
+          "id": "man--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "erd",
+          "km": 500.5,
+          "id": "erd--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "arv",
+          "km": 344.0,
+          "id": "arv--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "dal",
+          "km": 354.6,
+          "id": "dal--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "bar",
+          "km": 685.9,
+          "id": "bar--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "sel",
+          "km": 622.7,
+          "id": "man--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "zuu",
+          "km": 278.7,
+          "id": "man--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "ula",
+          "km": 1445.1,
+          "id": "man--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "kho",
+          "km": 1422.0,
+          "id": "kho--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "mur",
+          "km": 785.3,
+          "id": "man--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "man",
+          "v": "khe",
+          "km": 472.3,
+          "id": "khe--man",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "erd",
+          "km": 688.1,
+          "id": "erd--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "arv",
+          "km": 599.3,
+          "id": "arv--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "dal",
+          "km": 937.2,
+          "id": "dal--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "bar",
+          "km": 1556.3,
+          "id": "bar--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "sel",
+          "km": 921.7,
+          "id": "sel--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "zuu",
+          "km": 944.6,
+          "id": "uli--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "ula",
+          "km": 535.7,
+          "id": "ula--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "kho",
+          "km": 486.1,
+          "id": "kho--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "mur",
+          "km": 403.1,
+          "id": "mur--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "uli",
+          "v": "khe",
+          "km": 1296.6,
+          "id": "khe--uli",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "arv",
+          "km": 402.7,
+          "id": "arv--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "dal",
+          "km": 759.8,
+          "id": "dal--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "bar",
+          "km": 920.9,
+          "id": "bar--erd",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "sel",
+          "km": 257.7,
+          "id": "erd--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "zuu",
+          "km": 325.3,
+          "id": "erd--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "ula",
+          "km": 1087.3,
+          "id": "erd--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "kho",
+          "km": 1149.3,
+          "id": "erd--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "mur",
+          "km": 361.5,
+          "id": "erd--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "erd",
+          "v": "khe",
+          "km": 657.7,
+          "id": "erd--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "dal",
+          "km": 407.6,
+          "id": "arv--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "bar",
+          "km": 1006.1,
+          "id": "arv--bar",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "sel",
+          "km": 637.6,
+          "id": "arv--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "zuu",
+          "km": 443.7,
+          "id": "arv--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "ula",
+          "km": 1118.8,
+          "id": "arv--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "kho",
+          "km": 1079.8,
+          "id": "arv--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "mur",
+          "km": 529.3,
+          "id": "arv--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "arv",
+          "v": "khe",
+          "km": 763.9,
+          "id": "arv--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "bar",
+          "km": 968.8,
+          "id": "bar--dal",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "sel",
+          "km": 942.3,
+          "id": "dal--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "zuu",
+          "km": 625.3,
+          "id": "dal--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "ula",
+          "km": 1472.7,
+          "id": "dal--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "kho",
+          "km": 1381.9,
+          "id": "dal--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "mur",
+          "km": 936.7,
+          "id": "dal--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "dal",
+          "v": "khe",
+          "km": 800.0,
+          "id": "dal--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "sel",
+          "km": 817.6,
+          "id": "bar--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "zuu",
+          "km": 614.6,
+          "id": "bar--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "ula",
+          "km": 2005.6,
+          "id": "bar--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "kho",
+          "km": 2039.7,
+          "id": "bar--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "mur",
+          "km": 1282.1,
+          "id": "bar--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "bar",
+          "v": "khe",
+          "km": 263.8,
+          "id": "bar--khe",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sel",
+          "v": "zuu",
+          "km": 358.1,
+          "id": "sel--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sel",
+          "v": "ula",
+          "km": 1259.0,
+          "id": "sel--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sel",
+          "v": "kho",
+          "km": 1359.1,
+          "id": "kho--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sel",
+          "v": "mur",
+          "km": 547.4,
+          "id": "mur--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "sel",
+          "v": "khe",
+          "km": 575.0,
+          "id": "khe--sel",
+          "kind": "theoretical"
+        },
+        {
+          "u": "zuu",
+          "v": "ula",
+          "km": 1394.6,
+          "id": "ula--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "zuu",
+          "v": "kho",
+          "km": 1426.1,
+          "id": "kho--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "zuu",
+          "v": "mur",
+          "km": 678.2,
+          "id": "mur--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "zuu",
+          "v": "khe",
+          "km": 352.4,
+          "id": "khe--zuu",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ula",
+          "v": "kho",
+          "km": 278.0,
+          "id": "kho--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ula",
+          "v": "mur",
+          "km": 726.8,
+          "id": "mur--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "ula",
+          "v": "khe",
+          "km": 1741.8,
+          "id": "khe--ula",
+          "kind": "theoretical"
+        },
+        {
+          "u": "kho",
+          "v": "mur",
+          "km": 811.8,
+          "id": "kho--mur",
+          "kind": "theoretical"
+        },
+        {
+          "u": "kho",
+          "v": "khe",
+          "km": 1778.6,
+          "id": "khe--kho",
+          "kind": "theoretical"
+        },
+        {
+          "u": "mur",
+          "v": "khe",
+          "km": 1018.7,
+          "id": "khe--mur",
+          "kind": "theoretical"
+        }
+      ],
+      "stats": {
+        "km": 190534.0,
+        "bridges": [],
+        "connected": true,
+        "tolerant": true,
+        "rtt": 22.746999999999996,
+        "pair": [
+          "ulg",
+          "dorn"
+        ],
+        "components": [
+          [
+            "alt",
+            "ark",
+            "arv",
+            "bar",
+            "bay",
+            "bul",
+            "cho",
+            "dal",
+            "dar",
+            "dorn",
+            "erd",
+            "khe",
+            "kho",
+            "man",
+            "mur",
+            "sai",
+            "sel",
+            "ub",
+            "ula",
+            "ulg",
+            "uli",
+            "zuu"
+          ]
+        ]
+      }
+    }
+  },
+  "exact": {
+    "status": "optimal",
+    "scope": "minimum augmentation of this fixed MST",
+    "mip_gap": 0.0
+  },
+  "elapsed_ms": 10.855037000055745
+}
